@@ -1,0 +1,41 @@
+{
+  "name": "bit-pharma",
+  "version": "1.0.0",
+  "description": "Bit Pharma Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "watch": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnylau/bit-pharma-landing.git"
+  },
+  "author": "Jon Lau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnylau/bit-pharma-landing/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.10.0"
+  },
+  "homepage": "https://github.com/jonnylau/bit-pharma-landing#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.0.1",
+    "mongoose": "^5.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-youtube": "^7.5.0",
+    "request": "^2.83.0"
+  }
+}
